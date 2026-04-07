@@ -98,6 +98,11 @@ hr.divider{border:none;border-top:1px solid var(--border);margin:0}
 .contact-item{background:var(--navy-light);border:1px solid var(--border);border-radius:6px;padding:12px 22px;font-size:.93rem;color:var(--muted)}
 .contact-item a{color:var(--gold);text-decoration:none}
 .contact-item a:hover{text-decoration:underline}
+.sponsor-contact-box{background:rgba(245,200,66,0.07);border:1px solid rgba(245,200,66,0.35);border-radius:8px;padding:32px 40px;margin:36px 0 8px;display:inline-block;width:100%}
+.sponsor-contact-label{font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:1.05rem;letter-spacing:.06em;color:var(--white);margin-bottom:16px;text-transform:uppercase}
+.sponsor-emails{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:12px 20px;margin-top:4px}
+.sponsor-email{font-family:'Barlow Condensed',sans-serif;font-size:1.25rem;font-weight:700;letter-spacing:.04em;color:var(--gold);cursor:default;user-select:text}
+.sponsor-email-divider{color:var(--muted);font-size:1.2rem}
 footer{background:var(--navy);border-top:1px solid var(--border);padding:24px;text-align:center;font-size:.82rem;color:rgba(136,153,187,.5)}
 @media(max-width:600px){.stat-item{border-right:none;border-bottom:1px solid var(--border)}.stat-item:last-child{border-bottom:none}.jersey-note{flex-direction:column}}
 </style>
@@ -115,7 +120,7 @@ footer{background:var(--navy);border-top:1px solid var(--border);padding:24px;te
     <p class="hero-subtitle">Get your brand in front of thousands across YouTube, Facebook, and in-person — every match, every week in the Dallas–Fort Worth cricket community.</p>
     <div class="hero-cta">
       <a href="#tiers" class="btn-primary">View Sponsorship Tiers</a>
-      <a href="#contact" class="btn-secondary">Get in Touch</a>
+      <a href="#contact-emails" class="btn-secondary">Get in Touch</a>
     </div>
   </div>
 </section>
@@ -214,7 +219,7 @@ footer{background:var(--navy);border-top:1px solid var(--border);padding:24px;te
       <div class="tier-group-label"><span class="tier-badge entry">Entry Tier</span><div class="tier-line"></div></div>
       <div class="zone-cards">
         <div class="zone-card sold"><div class="sold-overlay">SOLD</div><div class="zone-header"><span class="zone-name">Zone D – Left Sleeve</span><span class="zone-price">$250</span></div><p class="zone-desc">Compact logo wrapping the left arm front and back. Clearly visible during side-on shots — great entry-level option for local businesses.</p><span class="zone-tag">Sleeve · Entry Friendly</span></div>
-        <div class="zone-card"><div class="zone-header"><span class="zone-name">Zone E – Right Sleeve</span><span class="zone-price">$250</span></div><p class="zone-desc">Right arm sleeve wrapping front and back. Featured during bowling approach and off-side batting. Can be paired with Zone D for full sleeve coverage.</p><span class="zone-tag">Sleeve · Entry Friendly</span></div>
+        <div class="zone-card sold"><div class="sold-overlay">SOLD</div><div class="zone-header"><span class="zone-name">Zone E – Right Sleeve</span><span class="zone-price">$250</span></div><p class="zone-desc">Right arm sleeve wrapping front and back. Featured during bowling approach and off-side batting. Can be paired with Zone D for full sleeve coverage.</p><span class="zone-tag">Sleeve · Entry Friendly</span></div>
         <div class="zone-card sold"><div class="sold-overlay">SOLD</div><div class="zone-header"><span class="zone-name">Zone H – Back Bottom</span><span class="zone-price">$200</span></div><p class="zone-desc">Lower back above the hem. Most affordable zone — still picked up by cameras and photographers. Perfect for cost-effective brand presence.</p><span class="zone-tag">Most Affordable</span></div>
       </div>
     </div>
@@ -240,7 +245,14 @@ footer{background:var(--navy);border-top:1px solid var(--border);padding:24px;te
     <p class="section-label">Ready to Partner?</p>
     <h2 class="section-title">Let's Make<br>This Season Count</h2>
     <p>Limited zones remaining. Reach out today and we'll get your brand onto the jersey before the season kicks off on <strong style="color:var(--white)">April 9</strong>. We'd love to have you in the Zalmi Strikers family.</p>
-    <a href="mailto:" class="btn-primary">Contact Us to Sponsor</a>
+    <div class="sponsor-contact-box" id="contact-emails">
+      <p class="sponsor-contact-label">Contact us on the below email addresses to Sponsor!</p>
+      <div class="sponsor-emails">
+        <span class="sponsor-email">jawadhashmi19@gmail.com</span>
+        <span class="sponsor-email-divider">·</span>
+        <span class="sponsor-email">saad.dealify@gmail.com</span>
+      </div>
+    </div>
     <div class="contact-block">
       <div class="contact-item">🏏 Zalmi Strikers · Dallas–Fort Worth</div>
       <div class="contact-item">📺 <a href="https://www.youtube.com/@lordsindoorsports4765" target="_blank">YouTube: @lordsindoorsports4765</a></div>
@@ -249,6 +261,4 @@ footer{background:var(--navy);border-top:1px solid var(--border);padding:24px;te
   </div>
 </section>
 
-<footer>© 2026 Zalmi Strikers · Dallas–Fort Worth Cricket · All rights reserved.</footer>
-</body>
-</html>
+<footer>© 2026 Zalmi Strikers · Dallas–Fort Worth Cricket · All rights reserved.</f
